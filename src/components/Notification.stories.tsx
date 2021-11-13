@@ -29,8 +29,37 @@ const MyComponent: FC = () => {
             duration: 2000,
           })
         }
+        className="mb-5"
       >
-        Open Notification
+        Open Success Notification
+      </Button>
+
+      <Button
+        onClick={() =>
+          setNotification({
+            message: 'Warning!!!',
+            variant: 'warn',
+            duration: 2000,
+          })
+        }
+        className="mb-5"
+        variant="outline"
+      >
+        Open Warning Notification
+      </Button>
+
+      <Button
+        onClick={() =>
+          setNotification({
+            message: 'Something went wrong',
+            variant: 'error',
+            duration: 2000,
+          })
+        }
+        className="mb-5"
+        variant="error"
+      >
+        Open Error Notification
       </Button>
     </div>
   );
