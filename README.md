@@ -2,6 +2,8 @@
 
 Save my components build with React & tailwind.css
 
+[previews](https://hugo-rc.netlify.app/)
+
 ## Install
 
 ```bash
