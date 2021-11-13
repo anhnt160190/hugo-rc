@@ -2,3 +2,4 @@ package.json
 src
 tsconfig.json
 dist
+storybook-static
