@@ -1,0 +1,34 @@
+{
+  "name": "hugo-rc",
+  "version": "1.0.4",
+  "description": "Hugo react components",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "prebuild": "rm -rf dist",
+    "build": "npm run build:css && tsc",
+    "prebuild:css": "rm -rf tailwind.generated.css",
+    "build:css": "tailwindcss -i tailwind.css -o tailwind.generated.css"
+  },
+  "keywords": [],
+  "author": "anh.nt<anh.nt160190@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "classnames": "^2.3.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@storybook/addon-actions": "^6.3.12",
+    "@storybook/addon-essentials": "^6.3.12",
+    "@storybook/addon-links": "^6.3.12",
+    "@storybook/react": "^6.3.12",
+    "autoprefixer": "^10.4.0",
+    "babel-loader": "^8.2.3",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19"
+  }
+}
