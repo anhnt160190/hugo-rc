@@ -44,6 +44,7 @@ LoadingButton.args = {
   isLoading: true,
   disabled: false,
   children: 'LOADING',
+  className: 'w-24'
 };
 
 export const DisabledButton = Template.bind({});
