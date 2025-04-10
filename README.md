@@ -1,6 +1,6 @@
-# Turborepo starter
+# Hugo React Components
 
-This Turborepo starter is maintained by the Turborepo core team.
+Save my components build with React & tailwind.css
 
 ## Using this example
 
@@ -37,7 +37,6 @@ This Turborepo has some additional tools already setup for you:
 To build all apps and packages, run the following command:
 
 ```
-cd my-turborepo
 pnpm build
 ```
 
@@ -46,7 +45,6 @@ pnpm build
 To develop all apps and packages, run the following command:
 
 ```
-cd my-turborepo
 pnpm dev
 ```
 
@@ -60,7 +58,6 @@ Turborepo can use a technique known as [Remote Caching](https://turbo.build/docs
 By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup?utm_source=turborepo-examples), then enter the following commands:
 
 ```
-cd my-turborepo
 npx turbo login
 ```
 
