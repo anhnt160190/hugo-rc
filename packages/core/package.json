@@ -1,0 +1,19 @@
+{
+  "name": "@hugo-rc/core",
+  "version": "1.0.0",
+  "description": "React components for hugo-rc",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "hugo <anh.nt160190@gmail.com>",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tailwindcss": "^4.1.3"
+  },
+  "dependencies": {
+    "classnames": "^2.5.1"
+  }
+}
